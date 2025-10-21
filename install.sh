@@ -57,6 +57,6 @@ if [[ `uname` =~ "Darwin" ]]; then
   ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 fi
 
-exec zsh
+# exec zsh
 echo "👌 Dotfiles setup complete!"
 
